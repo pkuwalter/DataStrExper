@@ -17,8 +17,9 @@ public class Test {
 		fileRecognizer = new FileRecognizer();
 		FileManager manager = new FileManager(fileRecognizer);
 		DataConvertor convertor = new DataConvertor(fileRecognizer);
+		System.out.println("tettststststst");
 	
-		String path = "C:/Users/Walter/Desktop/数据/SMVS__20140424 174352.txt";
+		String path = "./resources/20140403_SVMS_AP_addedTesting.txt";
 		
 		fileRecognizer.setFilePath(path);
 
